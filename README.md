@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Crypto Price Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Crypto Price Tracker! This application allows users to track the prices, volume, market cap, and price changes of various cryptocurrencies in real-time.
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This website is designed to highlight the prices, market trends, and other key metrics of cryptocurrencies. It provides a simple interface for users to view and search for various cryptocurrencies.
 
-### `npm start`
+## Motivation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+With a keen interest in finance and technology, I embarked on the journey of creating this project to address a personal need. I recognized the lack of a centralized platform where users could conveniently monitor the real-time prices and market data of cryptocurrencies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Driven by my enthusiasm for exploring cutting-edge technologies and building innovative solutions, this project also served as a practical endeavor to deepen my understanding of React and API integration. By creating this crypto tracker, I aimed to combine my technical skills with my fascination for the dynamic world of cryptocurrency.
 
-### `npm test`
+## Goal
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The goal is to provide an engaging and informative user experience that allows users to easily track the performance of various cryptocurrencies. The project aims to be a useful tool for both casual users and serious investors.
 
-### `npm run build`
+## Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React**: A JavaScript library for building user interfaces.
+- **Axios**: A promise-based HTTP client for making requests to the CoinGecko API.
+- **CSS**: For styling the components.
+- **CoinGecko API**: For fetching real-time cryptocurrency data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Quick Start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get started with running this project locally, follow these steps:
 
-### `npm run eject`
+1. **Clone the repository:**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/allengarcia04/crypto-tracker-react-api.git
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Navigate to the project directory:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   cd crypto-tracker-react-api
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Install the dependencies:**
 
-## Learn More
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Start the development server:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm start
+   ```
 
-### Code Splitting
+Your crypto tracker app should now be running on [http://localhost:3000](http://localhost:3000).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Usage
 
-### Analyzing the Bundle Size
+### Running the Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+After setting up the project using the Quick Start guide, you can start the development server and view the website in your local browser. The main components of the website include:
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- **Header**: Displays the title of the application.
+- **Search Bar**: Allows users to search for specific cryptocurrencies.
+- **Crypto Table**: Lists the cryptocurrencies with their name, symbol, price, volume, price change, and market cap.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+To deploy the website, you can use platforms like Vercel, Netlify, or GitHub Pages. Ensure you build the project before deployment:
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run build
+```
